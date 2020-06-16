@@ -13,6 +13,6 @@ The first one is the steady state gain (Kss), the second one is the time constan
 T(s)/U(s) = Kss/(Tau*s+1)*exp(-s*theta) = 1.096/(232.060*s+1)*exp(-s*9.494)
 ``
 
-![alt text](https://github.com/auralius/up_temperature_control_device/blob/master/Optimization%20for%20TDTC%20Model/demo1.png?raw=true)
+![alt text](https://github.com/auralius/up_temperature_control_device/blob/master/Activities/First%20Order/demo1.png?raw=true)
 
-![alt text](https://github.com/auralius/up_temperature_control_device/blob/master/Optimization%20for%20TDTC%20Model/demo2.png?raw=true)
+![alt text](https://github.com/auralius/up_temperature_control_device/blob/master/Activities/First%20Order/demo2.png?raw=true)
