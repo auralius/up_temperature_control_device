@@ -20,6 +20,7 @@ What you can learn with this device?
 - Develop and tune a constant gain feedback control.
 - Develop and tune a PID control.
 - Develop an on-off control with hysteresis.
+- Develop a Smith Predictor control.
 - Develop more advance model based controls such as the Model Reference Adaptive Control (MRAC).
 - Develop multiple-input and multiple-output (MIMO) models and controls.
 - Perform system parameter optimizations.
