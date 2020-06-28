@@ -10,7 +10,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="buffer.vi" Type="VI" URL="../buffer.vi"/>
 		<Item Name="Exp1.vi" Type="VI" URL="../Exp1.vi"/>
+		<Item Name="Exp2.vi" Type="VI" URL="../Exp2.vi"/>
+		<Item Name="Exp3.vi" Type="VI" URL="../Exp3.vi"/>
+		<Item Name="tc.vi" Type="VI" URL="../tc.vi"/>
+		<Item Name="tdtc.vi" Type="VI" URL="../tdtc.vi"/>
+		<Item Name="Testing.vi" Type="VI" URL="../Testing.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
