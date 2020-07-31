@@ -4,6 +4,8 @@ The device:
 
 <img src="https://github.com/auralius/up_temperature_control_device/blob/master/Screenshots/UPTCLab.jpg" width="300" height="400">
 
+<img src="https://github.com/auralius/up_temperature_control_device/blob/master/Screenshots/UPTCLab_Fan.jpg" width="300" height="300">
+
 Features:
 - Low cost.
 - Open hardware and software, you can make your own.
@@ -11,6 +13,7 @@ Features:
 - Two heaters with two temperature sensors.
 - Each heater can be heated to about 140 degrees of Celcius.
 - The device is designed such that only the power resistors that become hot. The driving transistors barely get any hot.
+- One of te heater can be replaced with a fan.
 
 What you can learn with this device?
 - Perform mathematical modeling, starting with the basic Time-Delay-Time-Constant (TDTC) model.
@@ -24,6 +27,8 @@ What you can learn with this device?
 - Develop more advance model based controls such as the Model Reference Adaptive Control (MRAC).
 - Develop multiple-input and multiple-output (MIMO) models and controls.
 - Perform system parameter optimizations.
+- Develop an energy balance model.
+- Calculate convetion rate of the fan as a function of its speed.
 
 The software that is used is MATLAB Simulink with the Arduino support package. It is also possible to use LabVIEW with Linx libraries for the Arduino.
 
