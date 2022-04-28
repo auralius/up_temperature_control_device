@@ -1,0 +1,10 @@
+LED 5MM                 3 pcs
+LM35                    2 pcs
+R 1KOhm 0.5 Watt        5 pcs
+R 27Ohm 5 Watt          2 pcs
+IRLB3034                2 pcs
+Header 2 pin            1 pcs
+Arduino Uno             1 pcs
+Stacking header 6 pin   1 pcs
+Stacking header 8 pin   2 pcs
+Stacking header 10 pin  1 pcs 
