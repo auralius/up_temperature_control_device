@@ -17,16 +17,19 @@ y = zeros(1, length(u));
 y(1:2) = [u0 u0+udot0*dt];
 u_d = zeros(1, length(u));
 n = floor(theta/dt);
+
 % Simulate the system
 for k = 1 : length(u)
     if k > n
-        u_d(k)   = u(k-n);        
+        u_d(k) = u(k-n);        
     else
-        u_d(k)   = u0;        
+        u_d(k) = u0;        
     end
+
     if k > 3
         A = 1 + b * dt + c * dt^2;
         y(k) = (c*Kss*dt^2*u_d(k) + b*dt*y(k-1) + 2*y(k-1) - y(k-2)) / A;
     end
 end
+
 end
