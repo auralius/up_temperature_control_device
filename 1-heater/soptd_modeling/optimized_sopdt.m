@@ -27,8 +27,8 @@ T1 = datalog(4, :);
 offset = T1(1);
 T1 = T1 - offset; 
 
-T1_opt = sopdt(u1, 0, 0, 0.1, opt_params(1), opt_params(2), ...
-    opt_params(3), opt_params(4));
+T1_opt = sopdt(u1, 0, 0.1, opt_params(1), opt_params(2), ...
+    opt_params(3), opt_params(4), 0, 0);
 
 figure
 subplot(2,1,1);
@@ -66,7 +66,7 @@ T1 = datalog(4, :);
 offset = T1(1);
 T1 = T1 - offset; 
 
-T1_sim = sopdt(u1, 0, 0, 0.1, b, c, theta, Kss);
+T1_sim = sopdt(u1, 0, 0.1, b, c, theta, Kss, 0, 0);
 
 residuals = sum(((T1_sim-T1).^2) .* (t(end)-t)) ;
 end
