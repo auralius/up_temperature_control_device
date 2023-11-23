@@ -4,10 +4,10 @@ There is a ZIP file containing the GERBER files which have been successfully sen
 
 The schematic:
 
-![](https://github.com/auralius/up_temperature_control_device/blob/master/Eagle%20PCB/Schematic.png)
+![](https://github.com/auralius/up_temperature_control_device/blob/master/eagle_pcb/Schematic.png)
 
 
 The PCB:
 
-![](https://github.com/auralius/up_temperature_control_device/blob/master/Eagle%20PCB/PCB.png)
+![](https://github.com/auralius/up_temperature_control_device/blob/master/eagle_pcb/PCB.png)
   
